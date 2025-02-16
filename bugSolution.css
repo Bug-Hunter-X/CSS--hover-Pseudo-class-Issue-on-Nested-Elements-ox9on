@@ -1,0 +1,21 @@
+/* bugSolution.css */
+.parent {
+  width: 200px;
+  height: 100px;
+  background-color: lightblue;
+}
+
+.child {
+  width: 50px;
+  height: 50px;
+  background-color: lightcoral;
+}
+
+.parent:hover .child {
+  background-color: lightgreen; /* Correctly targets the child on parent hover */
+}
+
+/* Alternatively, use specificity to ensure child's hover takes precedence */
+.child:hover {
+  background-color: lightgreen;
+}
