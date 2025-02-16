@@ -1,0 +1,1 @@
+The CSS code has an unexpected behavior when using the `:hover` pseudo-class on a nested element.  The hover effect doesn't trigger as expected, and the parent element seems to capture the hover event.
